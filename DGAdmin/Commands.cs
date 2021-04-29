@@ -795,11 +795,13 @@ namespace LambAdmin
                     {
                         sender.SetField("isInHeliSniper", false);
                         sender.SetField("targetfield", 0);
+                        WriteChatToPlayer(sender, Command.GetMessage("target1"));
                     }
                     else
                     {
                         sender.SetField("isInHeliSniper", true);
                         sender.SetField("targetfield", 1);
+                        WriteChatToPlayer(sender, Command.GetMessage("target2"));
                     }
                 }));
 

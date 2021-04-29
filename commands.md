@@ -71,7 +71,7 @@ config.cs
 	- [X] ct - colour test (print chat message in all colours)
 	- [ ] dev - dev and rcon
 	- [X] fl - toggle flying
-	- [ ] target - toggle being targeted by zombies
+	- [X] target - toggle being targeted by zombies
 	- [ ] takecurrent - remove current weapon
 	- [ ] takeall - remove all weapons
 	- [ ] nh - normal health (set health to 100)
@@ -108,4 +108,5 @@ config.cs
 	- [ ] pecheneg
 	- [ ] usas
 	- [ ] 1887
-
+- [ ] Make commands take player/filter arguments
+	- [ ] target

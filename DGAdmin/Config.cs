@@ -517,12 +517,16 @@ namespace LambAdmin
 
             //[my commands]
 
-            {"command_ct_usage", "^1Usage: !ct"},
+            {"command_ct_usage", "^1Usage: !ct (no arguments)"},
             {"Message_ct1", "^0zero ^1one ^2two ^3three ^4four ^5five ^6six ^7seven ^8eight ^9nine"},
 
             {"command_fl_usage", "^1Usage: !fl (toggle on/off)"},
             {"Message_fl1", "^1Fly ^2disabled"},
             {"Message_fl2", "^1Fly ^2enabled"},
+
+            {"command_target_usage", "^1Usage: !target (toggle on/off)"},
+            {"Message_target1", "^1Target ^2enabled"},
+            {"Message_target2", "^1Target ^2disabled"},
 
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},

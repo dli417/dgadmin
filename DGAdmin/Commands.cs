@@ -745,6 +745,13 @@ namespace LambAdmin
 
             //[my commands]
 
+            // ct (colourtest)
+            CommandList.Add(new Command("ct", 0, Command.Behaviour.Normal,
+                (sender, arguments, optarg) =>
+                {
+                    WriteChatToPlayer(sender, Command.GetMessage("ct1"));
+                }));
+
             // dev <player | *filter*>
             CommandList.Add(new Command("dev", 1, Command.Behaviour.Normal,
                 (sender, arguments, optarg) =>
@@ -768,6 +775,7 @@ namespace LambAdmin
                         sender.SessionState = "playing";
                         sender.SetContents(100);
                         sender.SetField("flyfield", 0);
+                        WriteChatToPlayer(sender, Command.GetMessage("fl1"));
                     }
                     else
                     {
@@ -775,6 +783,7 @@ namespace LambAdmin
                         sender.SessionState = "spectator";
                         sender.SetContents(0);
                         sender.SetField("flyfield", 1);
+                        WriteChatToPlayer(sender, Command.GetMessage("fl2"));
                     }
                 }));
 

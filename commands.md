@@ -12,6 +12,7 @@ commands.cs:
 		MOAB disabled (commented out)
 
 	//[my commands]
+		ct - colour test (print chat message in all colours)
 		dev - dev and rcon
 		fl - toggle flying
 		target - toggle being targeted by zombies
@@ -67,9 +68,9 @@ config.cs
 - [ ] Sort out left hand reload issue with !ia command
 - [ ] Figure out perfect aim (like handgun crouching - no larger reticule when moving or shooting; use helisniper code - dm code doesnt allow ADS)
 - [ ] Make confirmation and error/usage messages for my commands
-	- [X] ga - max ammo
+	- [X] ct - colour test (print chat message in all colours)
 	- [ ] dev - dev and rcon
-	- [ ] fl - toggle flying
+	- [X] fl - toggle flying
 	- [ ] target - toggle being targeted by zombies
 	- [ ] takecurrent - remove current weapon
 	- [ ] takeall - remove all weapons
@@ -90,7 +91,7 @@ config.cs
 
 	- [ ] ew - enable weapon switching
 	- [ ] pa - perfect aim (WIP)
-	- [ ] ga - max ammo
+	- [X] ga - max ammo
 	- [ ] gs - glowstick
 	- [ ] p1 - package 1 (pk, ew, ar, gs, bigmoney, hh, emp, sentry, littlebird, helisniper, moab)
 	- [ ] p2 - package 2 (za, dm, lg, usas, fmg9, ua on)

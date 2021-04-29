@@ -26,8 +26,8 @@ namespace LambAdmin
         public DGAdmin()
             : base()
         {
-            WriteLog.Info("DGAdmin#IS1.5 is starting...");
-            MainLog.WriteInfo("DGAdmin#IS1.5 starting...");
+            WriteLog.Info("DGAdmin#IS1.5.3 is starting...");
+            MainLog.WriteInfo("DGAdmin#IS1.5.3 starting...");
 
             if (!Directory.Exists(ConfigValues.ConfigPath))
             {

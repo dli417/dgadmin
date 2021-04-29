@@ -16,3 +16,6 @@ DGAdmin for TeknoMW3
 - Add more commands through reverse engineering AIZombiesSupreme.dll (i.e. via dnSpy)
 - Make created commands less janky
 - Keep up documentation on commands through `./additional files/commands.md`
+
+# Todo
+- [ ] Decide on project license (FredericaBernkastel's DGAdmin used the GPL-3.0 License)

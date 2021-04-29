@@ -62,6 +62,18 @@ config.cs
 	add command usage prompts
 	add command messages/enabled/disabled
 
-//// Todo
-sort out left hand reload issue with !ia command
-figure out perfect aim (like handgun crouching - no larger reticule when moving or shooting; use helisniper code - dm code doesnt allow ADS)
+
+
+
+
+
+
+
+# Todo
+- [ ] Sort out left hand reload issue with !ia command
+- [ ] Figure out perfect aim (like handgun crouching - no larger reticule when moving or shooting; use helisniper code - dm code doesnt allow ADS)
+- [ ] Make confirmation and error/usage messages for my commands
+	- [X] ga
+	- [ ] 
+
+

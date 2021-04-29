@@ -1,5 +1,11 @@
+# MW3 server commands
+
+
+
+# In game chat commands
+
 commands.cs:
-	>>already present commands of interest:
+	already present commands of interest:
 		ac130
 		unlimited_ammo <on/off/auto>
 		weapon <player | *filter*> <raw weapon string> [-t]

@@ -584,6 +584,18 @@ namespace LambAdmin
             {"command_sentry3_message1", "^13 sentry guns given to ^2<target>"},
             {"command_sentry3_message2", "^13 sentry guns given by ^2<sender>"},
 
+            {"command_littlebird_usage", "^1Usage: !littlebird <player | *filter*>"},
+            {"command_littlebird_message1", "^1Littlebird given to ^2<target>"},
+            {"command_littlebird_message2", "^1Littlebird given by ^2<sender>"},
+
+            {"command_helisniper_usage", "^1Usage: !helisniper <player | *filter*>"},
+            {"command_helisniper_message1", "^1Helisniper given to ^2<target>"},
+            {"command_helisniper_message2", "^1Helisniper given by ^2<sender>"},
+
+            {"command_moab_usage", "^1Usage: !moab <player | *filter*>"},
+            {"command_moab_message1", "^1Moab given to ^2<target>"},
+            {"command_moab_message2", "^1Moab given by ^2<sender>"},
+
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},
             {"command_ga_message2", "^1Ammo given by ^2<sender>"},

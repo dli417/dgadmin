@@ -1144,6 +1144,14 @@ namespace LambAdmin
                         target.SetActionSlot(4, "weapon", "killstreak_uav_mp");
                         target.SetField("ownsLittlebird", true);
                         target.SwitchToWeapon("killstreak_uav_mp");
+                        WriteChatToPlayer(sender, Command.GetString("littlebird", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("littlebird", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
            
@@ -1159,6 +1167,14 @@ namespace LambAdmin
                         target.SetActionSlot(4, "weapon", "killstreak_ims_mp");
                         target.SetField("ownsHeliSniper", true);
                         target.SwitchToWeapon("killstreak_ims_mp");
+                        WriteChatToPlayer(sender, Command.GetString("helisniper", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("helisniper", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 
@@ -1174,6 +1190,14 @@ namespace LambAdmin
                         target.SetActionSlot(7, "weapon", "killstreak_helicopter_mp");
                         target.SetField("ownsNuke", true);
                         target.SwitchToWeapon("killstreak_helicopter_mp");
+                        WriteChatToPlayer(sender, Command.GetString("moab", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("moab", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

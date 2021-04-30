@@ -1215,6 +1215,14 @@ namespace LambAdmin
                             target.EnableWeaponPickup();
                             return true;
                         });
+                        WriteChatToPlayer(sender, Command.GetString("ew", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("ew", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

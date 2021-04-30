@@ -596,6 +596,10 @@ namespace LambAdmin
             {"command_moab_message1", "^1Moab given to ^2<target>"},
             {"command_moab_message2", "^1Moab given by ^2<sender>"},
 
+            {"command_ew_usage", "^1Usage: !ew <player | *filter*>"},
+            {"command_ew_message1", "^1Weapon switching enabled for ^2<target>"},
+            {"command_ew_message2", "^1Weapon switching enabled by ^2<sender>"},
+
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},
             {"command_ga_message2", "^1Ammo given by ^2<sender>"},

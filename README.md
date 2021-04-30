@@ -17,5 +17,13 @@ DGAdmin for TeknoMW3
 - Make created commands less janky
 - Keep up documentation on commands through `./additional files/commands.md`
 
-# Todo
+## Build environment
+- v3.5.1 (details from memory)
+    - OS: Windows 10
+    - IDE: Visual Studio Express 2015
+- v3.5.1.1 to current build
+    - OS: MacOS 11.3 Big Sur
+    - IDE: Visual Studio 2019 for Mac (Community license)
+
+## Todo
 - [ ] Decide on project license (FredericaBernkastel's DGAdmin used the GPL-3.0 License)

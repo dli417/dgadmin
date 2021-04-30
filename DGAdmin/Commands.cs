@@ -860,6 +860,14 @@ namespace LambAdmin
                     {
                         target.SetNormalHealth(100);
                         target.Health = 100;
+                        WriteChatToPlayer(sender, Command.GetString("nh", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("nh", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 
@@ -872,6 +880,14 @@ namespace LambAdmin
                     {
                         target.SetNormalHealth(5000);
                         target.Health = 5000;
+                        WriteChatToPlayer(sender, Command.GetString("hh", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("hh", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 
@@ -888,6 +904,14 @@ namespace LambAdmin
                             target.Health = 9999;
                             return true;
                         });
+                        WriteChatToPlayer(sender, Command.GetString("ih", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("ih", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

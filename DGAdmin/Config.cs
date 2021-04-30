@@ -540,6 +540,18 @@ namespace LambAdmin
             {"command_takeall_message1", "^1All weapons removed for ^2<target>"},
             {"command_takeall_message2", "^1All weapons removed by ^2<sender>"},
 
+            {"command_nh_usage", "^1Usage: !nh <player | *filter*>"},
+            {"command_nh_message1", "^1Normal health set for ^2<target>"},
+            {"command_nh_message2", "^1Normal health set by ^2<sender>"},
+
+            {"command_hh_usage", "^1Usage: !hh <player | *filter*>"},
+            {"command_hh_message1", "^1High health set for ^2<target>"},
+            {"command_hh_message2", "^1High health set by ^2<sender>"},
+
+            {"command_ih_usage", "^1Usage: !ih <player | *filter*>"},
+            {"command_ih_message1", "^1Infinite health set for ^2<target>"},
+            {"command_ih_message2", "^1Infinite health set by ^2<sender>"},
+
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},
             {"command_ga_message2", "^1Ammo given by ^2<sender>"},

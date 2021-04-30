@@ -12,7 +12,7 @@ commands.cs:
 		sayto player text (private)
 		yell player text (private)
 		ac130
-		unlimited_ammo <on/off/auto>
+		ua or unlimited_ammo <on/off/auto>
 		tp player(to teleport) player(to teleport to)
 		weapon <player | *filter*> <raw weapon string> [-t]
 		MOAB disabled (commented out)
@@ -88,5 +88,6 @@ config.cs
 	- [ ] make new ia (infinite ammo) command that targets specific players
 	- [ ] make ia switch off-able
 - [ ] make money command which takes amount/value arguments
+- [ ] deconstruct latest AIZombies binary to find extra features
 
 

@@ -110,4 +110,5 @@ config.cs
 	- [ ] 1887
 - [ ] Make commands take player/filter arguments
 	- [ ] target
-- [ ] what is dev command used for?
+- [ ] What is dev command used for?
+- [ ] Is oninterval enable weapon switch commands in pk command necessary?

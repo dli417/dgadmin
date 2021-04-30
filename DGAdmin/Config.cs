@@ -528,9 +528,11 @@ namespace LambAdmin
             {"Message_fl1", "^1Fly ^2disabled"},
             {"Message_fl2", "^1Fly ^2enabled"},
 
-            {"command_target_usage", "^1Usage: !target (toggle on/off)"},
-            {"Message_target1", "^1Target ^2enabled"},
-            {"Message_target2", "^1Target ^2disabled"},
+            {"command_target_usage", "^1Usage: !target <player | *filter*> (toggle on/off)"},
+            {"command_target_message1", "^1Zombie target enabled for ^2<target>"},
+            {"command_target_message2", "^1Zombie target enabled by ^2<sender>"},
+            {"command_target_message3", "^1Zombie target disabled for ^2<target>"},
+            {"command_target_message4", "^1Zombie target disabled by ^2<sender>"},
 
             {"command_takecurrent_usage", "^1Usage: !takecurrent <player | *filter*>"},
             {"command_takecurrent_message1", "^1Weapon removed for ^2<target>"},

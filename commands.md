@@ -42,18 +42,18 @@ commands.cs:
 		p1 - package 1 (pk, ew, ar, gs, bigmoney, hh, emp, sentry, littlebird, helisniper, moab)
 		p2 - package 2 (za, dm, lg, usas, fmg9, ua on)
 
-		dm - perfect later
-		tg
-		za - zapper
-		rg
-		nz - nz75
-		mk
-		fmg9
-		lg - lg116
-		mg
-		pecheneg
-		usas
-		1887
+		dm - iw5_pecheneg_mp_rof_thermallmg;Death Machine; perfect later
+		tg - uav_strike_projectile_mp;Zeus Cannon
+		za - stinger_mp;Zapper
+		rg - iw5_skorpion_mp_eotechsmg_xmags_scope7;Porter's X2 Ray Gun
+		nz - uav_strike_marker_mp;NZ75
+		mk - iw5_mk12spr_mp_acog_xmags;MK12 SPR
+		fmg9 - iw5_fmg9_mp_akimbo_xmags;Full Motion Glock 18
+		lg - iw5_l96a1_mp_l96a1scopevz_xmags_camo11;L911C
+		mg - iw5_mg36_mp_grip_xmags_camo11;Masseration Gun 72
+		pecheneg - iw5_pecheneg_mp_thermal_xmags_camo11;PKP Pet-ur-egg
+		usas - iw5_usas12_mp_reflex_xmags_camo11;USedASs-24
+		1887 - iw5_1887_mp_camo11;Model 1337
 	//[end my commands]
 
 

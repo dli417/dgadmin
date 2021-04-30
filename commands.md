@@ -94,7 +94,6 @@ config.cs
 	- [ ] moab
 
 	- [ ] ew - enable weapon switching
-	- [ ] pa - perfect aim (WIP)
 	- [X] ga - max ammo
 	- [ ] gs - glowstick
 	- [ ] p1 - package 1 (pk, ew, ar, gs, bigmoney, hh, emp, sentry, littlebird, helisniper, moab)

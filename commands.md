@@ -1,6 +1,8 @@
 # MW3 server commands
-
-
+say [text]
+kick [exact player name; not case sensitive]
+map_rotate
+start_map_rotate
 
 # In game chat commands
 
@@ -11,6 +13,7 @@ commands.cs:
 		yell player text (private)
 		ac130
 		unlimited_ammo <on/off/auto>
+		tp player(to teleport) player(to teleport to)
 		weapon <player | *filter*> <raw weapon string> [-t]
 		MOAB disabled (commented out)
 
@@ -25,6 +28,7 @@ commands.cs:
 		hh - set health to 5000 (jugg is )
 		ih - infinite health (set health to 9999 every 50)
 		money - 10,000 cash/score
+		moremoney - 1,000,000 cash/score
 		bigmoney - 1,000,000,000 cash/score
 
 		ar - give autorevive

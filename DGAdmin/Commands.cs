@@ -935,6 +935,26 @@ namespace LambAdmin
                     }
                 }));
 
+            // moremoney <player | *filter*>
+            CommandList.Add(new Command("moremoney", 1, Command.Behaviour.Normal,
+                (sender, arguments, optarg) =>
+                {
+                    List<Entity> targets = FindSinglePlayerXFilter(arguments[0], sender);
+                    foreach (Entity target in targets)
+                    {
+                        target.SetField("cash", 1000000);
+                        target.Score = 1000000;
+                        WriteChatToPlayer(sender, Command.GetString("moremoney", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("moremoney", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
+                    }
+                }));
+
             // bigmoney <player | *filter*>
             CommandList.Add(new Command("bigmoney", 1, Command.Behaviour.Normal,
                 (sender, arguments, optarg) =>

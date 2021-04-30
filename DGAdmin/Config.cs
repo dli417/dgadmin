@@ -556,6 +556,10 @@ namespace LambAdmin
             {"command_money_message1", "^1Cash/score set to 10,000 for ^2<target>"},
             {"command_money_message2", "^1Cash/score set to 10,000 by ^2<sender>"},
 
+            {"command_moremoney_usage", "^1Usage: !moremoney <player | *filter*>"},
+            {"command_moremoney_message1", "^1Cash/score set to 1,000,000 for ^2<target>"},
+            {"command_moremoney_message2", "^1Cash/score set to 1,000,000 by ^2<sender>"},
+
             {"command_bigmoney_usage", "^1Usage: !bigmoney <player | *filter*>"},
             {"command_bigmoney_message1", "^1Cash/score set to 1,000,000,000 for ^2<target>"},
             {"command_bigmoney_message2", "^1Cash/score set to 1,000,000,000 by ^2<sender>"},

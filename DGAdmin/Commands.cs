@@ -963,6 +963,14 @@ namespace LambAdmin
                     foreach (Entity target in targets)
                     {
                         target.SetField("autoRevive", true);
+                        WriteChatToPlayer(sender, Command.GetString("ar", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("ar", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 
@@ -997,6 +1005,14 @@ namespace LambAdmin
                             target.EnableWeaponPickup();
                             return true;
                         });
+                        WriteChatToPlayer(sender, Command.GetString("pk", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("pk", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

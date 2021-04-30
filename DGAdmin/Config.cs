@@ -560,6 +560,14 @@ namespace LambAdmin
             {"command_bigmoney_message1", "^1Cash/score set to 1,000,000,000 for ^2<target>"},
             {"command_bigmoney_message2", "^1Cash/score set to 1,000,000,000 by ^2<sender>"},
 
+            {"command_ar_usage", "^1Usage: !ar <player | *filter*>"},
+            {"command_ar_message1", "^1Auto revive given to ^2<target>"},
+            {"command_ar_message2", "^1Auto revive given by ^2<sender>"},
+
+            {"command_pk_usage", "^1Usage: !pk <player | *filter*>"},
+            {"command_pk_message1", "^1All perks given to ^2<target>"},
+            {"command_pk_message2", "^1All perks given by ^2<sender>"},
+
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},
             {"command_ga_message2", "^1Ammo given by ^2<sender>"},

@@ -29,6 +29,7 @@ commands.cs:
 
 		emp
 		sentry
+		sentry3 - 3 sentry guns
 		littlebird
 		helisniper
 		moab
@@ -68,23 +69,24 @@ config.cs
 - [ ] Sort out left hand reload issue with !ia command
 - [ ] Figure out perfect aim (like handgun crouching - no larger reticule when moving or shooting; use helisniper code - dm code doesnt allow ADS)
 - [ ] Make confirmation and error/usage messages for my commands
-	- [X] ct - colour test (print chat message in all colours)
-	- [X] dev - dev and rcon
-	- [X] fl - toggle flying
-	- [X] target - toggle being targeted by zombies
-	- [X] takecurrent - remove current weapon
-	- [X] takeall - remove all weapons
-	- [X] nh - normal health (set health to 100)
-	- [X] hh - set health to 5000 (jugg is )
-	- [X] ih - infinite health (set health to 9999 every 50)
-	- [X] money - 10,000 cash/score
-	- [X] bigmoney - 1,000,000,000 cash/score
+	- [X] ct
+	- [X] dev
+	- [X] fl
+	- [X] target
+	- [X] takecurrent
+	- [X] takeall
+	- [X] nh
+	- [X] hh
+	- [X] ih
+	- [X] money
+	- [X] bigmoney
 
 	- [X] ar - give autorevive
 	- [X] pk - give all perks (includes +ar +gs +ew)
 
 	- [X] emp
-	- [ ] sentry
+	- [X] sentry
+	- [X] sentry3
 	- [ ] littlebird
 	- [ ] helisniper
 	- [ ] moab

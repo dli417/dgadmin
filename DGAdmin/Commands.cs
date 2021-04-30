@@ -924,6 +924,14 @@ namespace LambAdmin
                     {
                         target.SetField("cash", 10000);
                         target.Score = 10000;
+                        WriteChatToPlayer(sender, Command.GetString("money", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("money", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 
@@ -936,6 +944,14 @@ namespace LambAdmin
                     {
                         target.SetField("cash", 1000000000);
                         target.Score = 1000000000;
+                        WriteChatToPlayer(sender, Command.GetString("bigmoney", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("bigmoney", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

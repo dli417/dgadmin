@@ -552,6 +552,14 @@ namespace LambAdmin
             {"command_ih_message1", "^1Infinite health set for ^2<target>"},
             {"command_ih_message2", "^1Infinite health set by ^2<sender>"},
 
+            {"command_money_usage", "^1Usage: !money <player | *filter*>"},
+            {"command_money_message1", "^1Cash/score set to 10,000 for ^2<target>"},
+            {"command_money_message2", "^1Cash/score set to 10,000 by ^2<sender>"},
+
+            {"command_bigmoney_usage", "^1Usage: !bigmoney <player | *filter*>"},
+            {"command_bigmoney_message1", "^1Cash/score set to 1,000,000,000 for ^2<target>"},
+            {"command_bigmoney_message2", "^1Cash/score set to 1,000,000,000 by ^2<sender>"},
+
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},
             {"command_ga_message2", "^1Ammo given by ^2<sender>"},

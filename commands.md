@@ -6,6 +6,9 @@
 
 commands.cs:
 	already present commands of interest:
+		say text (public)
+		sayto player text (private)
+		yell player text (private)
 		ac130
 		unlimited_ammo <on/off/auto>
 		weapon <player | *filter*> <raw weapon string> [-t]
@@ -30,19 +33,18 @@ commands.cs:
 		emp
 		sentry
 		sentry2
-		sentry3 - 3 sentry guns
+		sentry3
 		littlebird
 		helisniper
 		moab
 
 		ew - enable weapon switching
-		pa - perfect aim (WIP)
 		ga - max ammo
 		gs - glowstick
 		p1 - package 1 (pk, ew, ar, gs, bigmoney, hh, emp, sentry, littlebird, helisniper, moab)
 		p2 - package 2 (za, dm, lg, usas, fmg9, ua on)
 
-		dm - iw5_pecheneg_mp_rof_thermallmg;Death Machine; perfect later
+		dm - iw5_pecheneg_mp_rof_thermallmg;Death Machine
 		tg - uav_strike_projectile_mp;Zeus Cannon
 		za - stinger_mp;Zapper
 		rg - iw5_skorpion_mp_eotechsmg_xmags_scope7;Porter's X2 Ray Gun
@@ -67,53 +69,20 @@ config.cs
 
 
 # Todo
+- [ ] pa command - perfect aim
+	- [ ] include in dm command
 - [ ] Sort out left hand reload issue with !ia command
 - [ ] Figure out perfect aim (like handgun crouching - no larger reticule when moving or shooting; use helisniper code - dm code doesnt allow ADS)
-- [ ] Make confirmation and error/usage messages for my commands
-	- [X] ct
-	- [X] dev
-	- [X] fl
-	- [X] target
-	- [X] takecurrent
-	- [X] takeall
-	- [X] nh
-	- [X] hh
-	- [X] ih
-	- [X] money
-	- [X] bigmoney
-
-	- [X] ar - give autorevive
-	- [X] pk - give all perks (includes +ar +gs +ew)
-
-	- [X] emp
-	- [X] sentry
-	- [X] sentry2
-	- [X] sentry3
-	- [ ] littlebird
-	- [ ] helisniper
-	- [ ] moab
-
-	- [ ] ew - enable weapon switching
-	- [X] ga - max ammo
-	- [ ] gs - glowstick
-	- [ ] p1 - package 1 (pk, ew, ar, gs, bigmoney, hh, emp, sentry, littlebird, helisniper, moab)
-	- [ ] p2 - package 2 (za, dm, lg, usas, fmg9, ua on)
-
-	- [ ] dm - perfect later
-	- [ ] tg
-	- [ ] za - zapper
-	- [ ] rg
-	- [ ] nz - nz75
-	- [ ] mk
-	- [ ] fmg9
-	- [ ] lg - lg116
-	- [ ] mg
-	- [ ] pecheneg
-	- [ ] usas
-	- [ ] 1887
+- [X] Make confirmation and error/usage messages for my commands
 - [ ] Make commands take player/filter arguments
 	- [ ] target
 - [ ] What is dev command used for?
 - [ ] Is oninterval enable weapon switch commands in pk command necessary?
 - [ ] Does ew command need to be oninterval?
 - [ ] Review commented out pa command
+- [ ] Fix unlimited ammo breaks throwable killstreaks
+	- [ ] make new ia (infinite ammo) command that targets specific players
+	- [ ] make ia switch off-able
+- [ ] make money command which takes amount/value arguments
+
+

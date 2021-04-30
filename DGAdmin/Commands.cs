@@ -795,21 +795,39 @@ namespace LambAdmin
                     }
                 }));
 
-            // target toggle
-            CommandList.Add(new Command("target", 0, Command.Behaviour.Normal,
+            // target <player | *filter*> (toggle)
+            CommandList.Add(new Command("target", 1, Command.Behaviour.Normal,
                 (sender, arguments, optarg) =>
                 {
-                    if (sender.HasField("targetfield") && sender.GetField<int>("targetfield") == 1)
+                    List<Entity> targets = FindSinglePlayerXFilter(arguments[0], sender);
+                    foreach (Entity target in targets)
                     {
-                        sender.SetField("isInHeliSniper", false);
-                        sender.SetField("targetfield", 0);
-                        WriteChatToPlayer(sender, Command.GetMessage("target1"));
-                    }
-                    else
-                    {
-                        sender.SetField("isInHeliSniper", true);
-                        sender.SetField("targetfield", 1);
-                        WriteChatToPlayer(sender, Command.GetMessage("target2"));
+                        if (target.HasField("targetfield") && target.GetField<int>("targetfield") == 1)
+                        {
+                            target.SetField("isInHeliSniper", false);
+                            target.SetField("targetfield", 0);
+                            WriteChatToPlayer(sender, Command.GetString("target", "message1").Format(new Dictionary<string, string>()
+                            {
+                                {"<target>", target.Name},
+                            }));
+                            WriteChatToPlayer(target, Command.GetString("target", "message2").Format(new Dictionary<string, string>()
+                            {
+                                {"<sender>", sender.Name},
+                            }));
+                        }
+                        else
+                        {
+                            target.SetField("isInHeliSniper", true);
+                            target.SetField("targetfield", 1);
+                            WriteChatToPlayer(sender, Command.GetString("target", "message3").Format(new Dictionary<string, string>()
+                            {
+                                {"<target>", target.Name},
+                            }));
+                            WriteChatToPlayer(target, Command.GetString("target", "message4").Format(new Dictionary<string, string>()
+                            {
+                                {"<sender>", sender.Name},
+                            }));
+                        }
                     }
                 }));
 

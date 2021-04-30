@@ -78,8 +78,8 @@ config.cs
 - [ ] Sort out left hand reload issue with !ia command
 - [ ] Figure out perfect aim (like handgun crouching - no larger reticule when moving or shooting; use helisniper code - dm code doesnt allow ADS)
 - [X] Make confirmation and error/usage messages for my commands
-- [ ] Make commands take player/filter arguments
-	- [ ] target
+- [X] Make commands take player/filter arguments
+	- [X] target
 - [ ] What is dev command used for?
 - [ ] Is oninterval enable weapon switch commands in pk command necessary?
 - [ ] Does ew command need to be oninterval?

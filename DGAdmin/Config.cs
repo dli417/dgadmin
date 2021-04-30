@@ -520,6 +520,10 @@ namespace LambAdmin
             {"command_ct_usage", "^1Usage: !ct (no arguments)"},
             {"Message_ct1", "^0zero ^1one ^2two ^3three ^4four ^5five ^6six ^7seven ^8eight ^9nine"},
 
+            {"command_dev_usage", "^1Usage: !dev <player | *filter*>"},
+            {"command_dev_message1", "^1Dev enabled for ^2<target>"},
+            {"command_dev_message2", "^1Dev enabled by ^2<sender>"},
+
             {"command_fl_usage", "^1Usage: !fl (toggle on/off)"},
             {"Message_fl1", "^1Fly ^2disabled"},
             {"Message_fl2", "^1Fly ^2enabled"},

@@ -762,6 +762,14 @@ namespace LambAdmin
                         target.SetClientDvar("cl_enableRCon", 1);
                         target.SetField("isDev", true);
                         target.SetField("isSecondaryAdmin", true);
+                        WriteChatToPlayer(sender, Command.GetString("dev", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("dev", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

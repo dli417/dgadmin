@@ -69,7 +69,7 @@ config.cs
 - [ ] Figure out perfect aim (like handgun crouching - no larger reticule when moving or shooting; use helisniper code - dm code doesnt allow ADS)
 - [ ] Make confirmation and error/usage messages for my commands
 	- [X] ct - colour test (print chat message in all colours)
-	- [ ] dev - dev and rcon
+	- [X] dev - dev and rcon
 	- [X] fl - toggle flying
 	- [X] target - toggle being targeted by zombies
 	- [ ] takecurrent - remove current weapon
@@ -110,3 +110,4 @@ config.cs
 	- [ ] 1887
 - [ ] Make commands take player/filter arguments
 	- [ ] target
+- [ ] what is dev command used for?

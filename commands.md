@@ -116,3 +116,4 @@ config.cs
 	- [ ] target
 - [ ] What is dev command used for?
 - [ ] Is oninterval enable weapon switch commands in pk command necessary?
+- [ ] does ew command need to be oninterval?

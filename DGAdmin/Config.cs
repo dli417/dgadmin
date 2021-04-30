@@ -576,9 +576,13 @@ namespace LambAdmin
             {"command_sentry_message1", "^1Sentry gun given to ^2<target>"},
             {"command_sentry_message2", "^1Sentry gun given by ^2<sender>"},
 
+            {"command_sentry2_usage", "^1Usage: !sentry2 <player | *filter*>"},
+            {"command_sentry2_message1", "^12 sentry guns given to ^2<target>"},
+            {"command_sentry2_message2", "^12 sentry guns given by ^2<sender>"},
+
             {"command_sentry3_usage", "^1Usage: !sentry3 <player | *filter*>"},
-            {"command_sentry3_message1", "^13 Sentry guns given to ^2<target>"},
-            {"command_sentry3_message2", "^13 Sentry guns given by ^2<sender>"},
+            {"command_sentry3_message1", "^13 sentry guns given to ^2<target>"},
+            {"command_sentry3_message2", "^13 sentry guns given by ^2<sender>"},
 
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},

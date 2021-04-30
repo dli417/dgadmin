@@ -1062,6 +1062,37 @@ namespace LambAdmin
                     }
                 }));
 
+            // sentry2 <player | *filter*>
+            CommandList.Add(new Command("sentry2", 1, Command.Behaviour.Normal,
+                (sender, arguments, optarg) =>
+                {
+                    List<Entity> targets = FindSinglePlayerXFilter(arguments[0], sender);
+                    foreach (Entity target in targets)
+                    {
+                        target.PlayLocalSound("US_1mc_achieve_sentrygun");
+                        target.GiveWeapon("killstreak_sentry_mp", 0, false);
+                        target.SetActionSlot(5, "weapon", "killstreak_sentry_mp");
+                        target.SetField("ownsSentry", true);
+                        target.SwitchToWeapon("killstreak_sentry_mp");
+                        BaseScript.AfterDelay(2000, () =>
+                        {
+                            target.GiveWeapon("killstreak_sentry_mp", 0, false);
+                            target.SetActionSlot(5, "weapon", "killstreak_sentry_mp");
+                            target.SetField("ownsSentry", true);
+                            target.SwitchToWeapon("killstreak_sentry_mp");
+                            return;
+                        });
+                        WriteChatToPlayer(sender, Command.GetString("sentry2", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("sentry2", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
+                    }
+                }));
+
             // sentry3 <player | *filter*>
             CommandList.Add(new Command("sentry3", 1, Command.Behaviour.Normal,
                 (sender, arguments, optarg) =>

@@ -29,6 +29,7 @@ commands.cs:
 
 		emp
 		sentry
+		sentry2
 		sentry3 - 3 sentry guns
 		littlebird
 		helisniper
@@ -86,6 +87,7 @@ config.cs
 
 	- [X] emp
 	- [X] sentry
+	- [X] sentry2
 	- [X] sentry3
 	- [ ] littlebird
 	- [ ] helisniper

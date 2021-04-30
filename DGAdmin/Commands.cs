@@ -1028,6 +1028,14 @@ namespace LambAdmin
                         target.SetActionSlot(6, "weapon", "killstreak_emp_mp");
                         target.SetField("ownsEMP", true);
                         target.SwitchToWeaponImmediate("killstreak_emp_mp");
+                        WriteChatToPlayer(sender, Command.GetString("emp", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("emp", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

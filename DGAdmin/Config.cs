@@ -568,6 +568,10 @@ namespace LambAdmin
             {"command_pk_message1", "^1All perks given to ^2<target>"},
             {"command_pk_message2", "^1All perks given by ^2<sender>"},
 
+            {"command_emp_usage", "^1Usage: !emp <player | *filter*>"},
+            {"command_emp_message1", "^1EMP given to ^2<target>"},
+            {"command_emp_message2", "^1EMP given by ^2<sender>"},
+
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},
             {"command_ga_message2", "^1Ammo given by ^2<sender>"},

@@ -4182,7 +4182,7 @@ namespace LambAdmin
                     AfterDelay(200, () => {
                         UTILS_SetDvar("unlimited_ammo", "2");
                         UTILS_UnlimitedAmmo();
-                    });    
+                    });
                 }
                 else
                 {

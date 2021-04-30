@@ -1,3 +1,6 @@
+# Useful links
+https://forum.teknogods.com/viewtopic.php?t=38671
+
 # MW3 server commands
 say [text]
 kick [exact player name; not case sensitive]

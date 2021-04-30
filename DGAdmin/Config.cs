@@ -473,9 +473,9 @@ namespace LambAdmin
             {"command_votecancel_error", "^1Error: ^3There is no voting" },
             {"command_votecancel_message", "^3Voting cancelled by ^2<issuer>" },
 
-            {"command_moab_usage", "^1Usage: !moab <<player | *filter*>"},
-            {"command_moab_message", "^7A ^1MOAB ^3given to ^2<player>"},
-            {"command_moab_message_all", "^7A ^1MOAB ^3given to ^1Everyone by ^2<issuer>"},
+            //{"command_moab_usage", "^1Usage: !moab <<player | *filter*>"},
+            //{"command_moab_message", "^7A ^1MOAB ^3given to ^2<player>"},
+            //{"command_moab_message_all", "^7A ^1MOAB ^3given to ^1Everyone by ^2<issuer>"},
 
             {"command_drunk_usage", "^1Usage: !drunk"},
             {"command_drunk_message", "^3<player> ^2is ^1drunk"},

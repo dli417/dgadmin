@@ -604,6 +604,18 @@ namespace LambAdmin
             {"command_ga_message1", "^1Ammo given to ^2<target>"},
             {"command_ga_message2", "^1Ammo given by ^2<sender>"},
 
+            {"command_gs_usage", "^1Usage: !gs <player | *filter*>"},
+            {"command_gs_message1", "^1Glow stick given to ^2<target>"},
+            {"command_gs_message2", "^1Glow stick given by ^2<sender>"},
+
+            {"command_p1_usage", "^1Usage: !p1 <player | *filter*>"},
+            {"command_p1_message1", "^1Package 1 given to ^2<target>"},
+            {"command_p1_message2", "^1Package 1 given by ^2<sender>"},
+
+            {"command_p2_usage", "^1Usage: !p2 <player | *filter*>"},
+            {"command_p2_message1", "^1Package 2 given to ^2<target>"},
+            {"command_p2_message2", "^1Package 2 given by ^2<sender>"},
+
             //[end my commands]
         };
 

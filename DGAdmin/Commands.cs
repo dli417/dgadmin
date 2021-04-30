@@ -1288,6 +1288,14 @@ namespace LambAdmin
                     {
                         target.GiveWeapon("lightstick_mp");
                         target.SwitchToWeapon("lightstick_mp");
+                        WriteChatToPlayer(sender, Command.GetString("gs", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("gs", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 
@@ -1342,6 +1350,14 @@ namespace LambAdmin
                             target.EnableWeaponPickup();
                             return true;
                         });
+                        WriteChatToPlayer(sender, Command.GetString("p1", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("p1", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 
@@ -1368,6 +1384,14 @@ namespace LambAdmin
                         target.SwitchToWeaponImmediate("iw5_fmg9_mp_akimbo_xmags");
                         UTILS_SetDvar("unlimited_ammo", "1");
                         UTILS_UnlimitedAmmo(true);
+                        WriteChatToPlayer(sender, Command.GetString("p2", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("p2", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

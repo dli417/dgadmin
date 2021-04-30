@@ -77,13 +77,13 @@ config.cs
 	- [X] nh - normal health (set health to 100)
 	- [X] hh - set health to 5000 (jugg is )
 	- [X] ih - infinite health (set health to 9999 every 50)
-	- [ ] money - 10,000 cash/score
-	- [ ] bigmoney - 1,000,000,000 cash/score
+	- [X] money - 10,000 cash/score
+	- [X] bigmoney - 1,000,000,000 cash/score
 
-	- [ ] ar - give autorevive
-	- [ ] pk - give all perks (includes +ar +gs +ew)
+	- [X] ar - give autorevive
+	- [X] pk - give all perks (includes +ar +gs +ew)
 
-	- [ ] emp
+	- [X] emp
 	- [ ] sentry
 	- [ ] littlebird
 	- [ ] helisniper

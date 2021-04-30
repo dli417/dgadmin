@@ -28,6 +28,8 @@ namespace LambAdmin
         {
             WriteLog.Info("DGAdmin#IS1.5.3 is starting...");
             MainLog.WriteInfo("DGAdmin#IS1.5.3 starting...");
+            WriteLog.Info("DGAdmin version 3.7.0.1");
+            MainLog.WriteInfo("DGAdmin version 3.7.0.1");
 
             if (!Directory.Exists(ConfigValues.ConfigPath))
             {

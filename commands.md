@@ -72,8 +72,8 @@ config.cs
 	- [X] dev - dev and rcon
 	- [X] fl - toggle flying
 	- [X] target - toggle being targeted by zombies
-	- [ ] takecurrent - remove current weapon
-	- [ ] takeall - remove all weapons
+	- [X] takecurrent - remove current weapon
+	- [X] takeall - remove all weapons
 	- [ ] nh - normal health (set health to 100)
 	- [ ] hh - set health to 5000 (jugg is )
 	- [ ] ih - infinite health (set health to 9999 every 50)

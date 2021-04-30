@@ -532,6 +532,14 @@ namespace LambAdmin
             {"Message_target1", "^1Target ^2enabled"},
             {"Message_target2", "^1Target ^2disabled"},
 
+            {"command_takecurrent_usage", "^1Usage: !takecurrent <player | *filter*>"},
+            {"command_takecurrent_message1", "^1Weapon removed for ^2<target>"},
+            {"command_takecurrent_message2", "^1Weapon removed by ^2<sender>"},
+
+            {"command_takeall_usage", "^1Usage: !takeall <player | *filter*>"},
+            {"command_takeall_message1", "^1All weapons removed for ^2<target>"},
+            {"command_takeall_message2", "^1All weapons removed by ^2<sender>"},
+
             {"command_ga_usage", "^1Usage: !ga <player | *filter*>"},
             {"command_ga_message1", "^1Ammo given to ^2<target>"},
             {"command_ga_message2", "^1Ammo given by ^2<sender>"},

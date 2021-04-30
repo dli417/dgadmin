@@ -821,6 +821,14 @@ namespace LambAdmin
                     foreach (Entity target in targets)
                     {
                         target.TakeWeapon(target.CurrentWeapon);
+                        WriteChatToPlayer(sender, Command.GetString("takecurrent", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("takecurrent", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 
@@ -832,6 +840,14 @@ namespace LambAdmin
                     foreach (Entity target in targets)
                     {
                         target.TakeAllWeapons();
+                        WriteChatToPlayer(sender, Command.GetString("takeall", "message1").Format(new Dictionary<string, string>()
+                        {
+                            {"<target>", target.Name},
+                        }));
+                        WriteChatToPlayer(target, Command.GetString("takeall", "message2").Format(new Dictionary<string, string>()
+                        {
+                            {"<sender>", sender.Name},
+                        }));
                     }
                 }));
 

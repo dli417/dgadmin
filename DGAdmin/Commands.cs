@@ -1425,14 +1425,6 @@ namespace LambAdmin
                         //hudElem2.Y = 0f;
                         //hudElem2.Alpha = 1f;
                         //hudElem2.SetShader("specialty_bulletpenetration", 48, 48);
-                        WriteChatToPlayer(sender, Command.GetString("dm", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("dm", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1447,14 +1439,6 @@ namespace LambAdmin
                         target.SetField("zeus_clip", 999);
                         target.SetField("zeus_stock", 9999);
                         target.SwitchToWeaponImmediate("uav_strike_projectile_mp");
-                        WriteChatToPlayer(sender, Command.GetString("tg", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("tg", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1468,14 +1452,6 @@ namespace LambAdmin
                         target.GiveWeapon("stinger_mp");
                         target.SwitchToWeaponImmediate("stinger_mp");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("za", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("za", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1489,14 +1465,6 @@ namespace LambAdmin
                         target.GiveWeapon("iw5_skorpion_mp_eotechsmg_xmags_scope7");
                         target.SwitchToWeaponImmediate("iw5_skorpion_mp_eotechsmg_xmags_scope7");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("rg", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("rg", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1509,14 +1477,6 @@ namespace LambAdmin
                     {
                         target.GiveWeapon("uav_strike_marker_mp");
                         target.SwitchToWeaponImmediate("uav_strike_marker_mp");
-                        WriteChatToPlayer(sender, Command.GetString("nz", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("nz", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1530,14 +1490,6 @@ namespace LambAdmin
                         target.GiveWeapon("iw5_mk12spr_mp_acog_xmags");
                         target.SwitchToWeaponImmediate("iw5_mk12spr_mp_acog_xmags");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("mk", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("mk", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1551,14 +1503,6 @@ namespace LambAdmin
                         target.GiveWeapon("iw5_fmg9_mp_akimbo_xmags");
                         target.SwitchToWeaponImmediate("iw5_fmg9_mp_akimbo_xmags");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("fmg9", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("fmg9", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1572,14 +1516,6 @@ namespace LambAdmin
                         target.GiveWeapon("iw5_l96a1_mp_l96a1scopevz_xmags_camo11");
                         target.SwitchToWeaponImmediate("iw5_l96a1_mp_l96a1scopevz_xmags_camo11");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("lg", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("lg", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1593,14 +1529,6 @@ namespace LambAdmin
                         target.GiveWeapon("iw5_mg36_mp_grip_xmags_camo11");
                         target.SwitchToWeaponImmediate("iw5_mg36_mp_grip_xmags_camo11");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("mg", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("mg", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1614,14 +1542,6 @@ namespace LambAdmin
                         target.GiveWeapon("iw5_pecheneg_mp_thermal_xmags_camo11");
                         target.SwitchToWeaponImmediate("iw5_pecheneg_mp_thermal_xmags_camo11");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("pecheneg", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("pecheneg", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1635,14 +1555,6 @@ namespace LambAdmin
                         target.GiveWeapon("iw5_usas12_mp_reflex_xmags_camo11");
                         target.SwitchToWeaponImmediate("iw5_usas12_mp_reflex_xmags_camo11");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("usas", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("usas", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 
@@ -1656,14 +1568,6 @@ namespace LambAdmin
                         target.GiveWeapon("iw5_1887_mp_camo11");
                         target.SwitchToWeaponImmediate("iw5_1887_mp_camo11");
                         target.GiveMaxAmmo(target.CurrentWeapon);
-                        WriteChatToPlayer(sender, Command.GetString("1887", "message1").Format(new Dictionary<string, string>()
-                        {
-                            {"<target>", target.Name},
-                        }));
-                        WriteChatToPlayer(target, Command.GetString("1887", "message2").Format(new Dictionary<string, string>()
-                        {
-                            {"<sender>", sender.Name},
-                        }));
                     }
                 }));
 

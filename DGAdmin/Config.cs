@@ -616,55 +616,6 @@ namespace LambAdmin
             {"command_p2_message1", "^1Package 2 given to ^2<target>"},
             {"command_p2_message2", "^1Package 2 given by ^2<sender>"},
 
-            {"command_dm_usage", "^1Usage: !dm <player | *filter*>"},
-            {"command_dm_message1", "^1Death Machine given to ^2<target>"},
-            {"command_dm_message2", "^1Death Machine given by ^2<sender>"},
-
-            {"command_tg_usage", "^1Usage: !tg <player | *filter*>"},
-            {"command_tg_message1", "^1Zeus Cannon given to ^2<target>"},
-            {"command_tg_message2", "^1Zeus Cannon given by ^2<sender>"},
-
-            {"command_za_usage", "^1Usage: !za <player | *filter*>"},
-            {"command_za_message1", "^1Zapper given to ^2<target>"},
-            {"command_za_message2", "^1Zapper given by ^2<sender>"},
-
-            {"command_rg_usage", "^1Usage: !rg <player | *filter*>"},
-            {"command_rg_message1", "^1Porter's X2 Ray Gun given to ^2<target>"},
-            {"command_rg_message2", "^1Porter's X2 Ray Gun given by ^2<sender>"},
-
-            {"command_nz_usage", "^1Usage: !nz <player | *filter*>"},
-            {"command_nz_message1", "^1NZ75 given to ^2<target>"},
-            {"command_nz_message2", "^1NZ75 given by ^2<sender>"},
-
-            {"command_mk_usage", "^1Usage: !mk <player | *filter*>"},
-            {"command_mk_message1", "^1MK12 SPR given to ^2<target>"},
-            {"command_mk_message2", "^1MK12 SPR given by ^2<sender>"},
-
-            {"command_fmg9_usage", "^1Usage: !fmg9 <player | *filter*>"},
-            {"command_fmg9_message1", "^1Full Motion Glock 18 given to ^2<target>"},
-            {"command_fmg9_message2", "^1Full Motion Glock 18 given by ^2<sender>"},
-
-            {"command_lg_usage", "^1Usage: !lg <player | *filter*>"},
-            {"command_lg_message1", "^1L911C given to ^2<target>"},
-            {"command_lg_message2", "^1L911C given by ^2<sender>"},
-
-            {"command_mg_usage", "^1Usage: !mg <player | *filter*>"},
-            {"command_mg_message1", "^1Masseration Gun 72 given to ^2<target>"},
-            {"command_mg_message2", "^1Masseration Gun 72 given by ^2<sender>"},
-
-            {"command_pecheneg_usage", "^1Usage: !pecheneg <player | *filter*>"},
-            {"command_pecheneg_message1", "^1PKP Pet-ur-egg given to ^2<target>"},
-            {"command_pecheneg_message2", "^1PKP Pet-ur-egg given by ^2<sender>"},
-
-            {"command_usas_usage", "^1Usage: !usas <player | *filter*>"},
-            {"command_usas_message1", "^1USedASs-24 given to ^2<target>"},
-            {"command_usas_message2", "^1USedASs-24 given by ^2<sender>"},
-
-            {"command_1887_usage", "^1Usage: !1887 <player | *filter*>"},
-            {"command_1887_message1", "^1Model 1337 given to ^2<target>"},
-            {"command_1887_message2", "^1Model 1337 given by ^2<sender>"},
-
-
             //[end my commands]
         };
 

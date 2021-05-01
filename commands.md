@@ -90,7 +90,9 @@ config.cs
 - [ ] Fix unlimited ammo breaks throwable killstreaks
 	- [ ] make new ia (infinite ammo) command that targets specific players
 	- [ ] make ia switch off-able
-- [ ] make money command which takes amount/value arguments
-- [ ] deconstruct latest AIZombies binary to find extra features
-
+- [ ] Make money command which takes amount/value arguments
+- [ ] Deconstruct latest AIZombies binary to find extra features
+- [ ] Investigate InfinityScript reference functions in DGAdmin VS project
+- [ ] Disable extraneous DGAdmin features to conserve script resource usage
+	- [ ] isnipe mode
 

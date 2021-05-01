@@ -1,11 +1,27 @@
 # Useful links
 https://forum.teknogods.com/viewtopic.php?t=38671
+https://forum.teknogods.com/viewtopic.php?t=37793
 
 # MW3 server commands
 say [text]
 kick [exact player name; not case sensitive]
 map_rotate
 start_map_rotate
+
+start_map_rotate - starts the server
+status - show player list with (name, xuid, hwid, ip)
+dropclient/kickclient - kick player by client number, example: dropclient 5
+drop/kick - kick player by name, example: kick "Unknown Soldier"
+banclient - ban player by client number, example: banclient 5
+ban - ban player by name, example: ban "Unknown Soldier"
+killserver - shut down the server
+map - change to the given map, example: map mp_dome
+map_restart - restart the running map
+fast_restart - same as above but the map is not re-loaded
+quit - close the server
+dumpuser - display detailed information about a player, example: dumpuser "Unknown Soldier"
+loadScript - load an InfinityScript plugin, example: loadScript myPlugin.dll (myPlugin.dll must be present in the "scripts" folder) - takes effect after the next map restart
+unloadScript - unload a previously loaded script, example: unloadScript myPlugin.dll - takes effect after the next map restart
 
 # In game chat commands
 

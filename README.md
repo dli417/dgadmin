@@ -26,4 +26,4 @@ DGAdmin for TeknoMW3
     - IDE: Visual Studio 2019 for Mac (Community license)
 
 ## Todo
-- [ ] Decide on project license (FredericaBernkastel's DGAdmin used the GPL-3.0 License)
+- [x] Decide on project license (FredericaBernkastel's DGAdmin used the GPL-3.0 License)

@@ -423,3 +423,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Project specific
+
+gitignore/*
